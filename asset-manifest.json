@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/OksanaStezhko/goit-react-hw-02-feedback.git/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/OksanaStezhko/goit-react-hw-02-feedback.git/static/js/main.65ace79c.chunk.js",
+    "main.js.map": "/OksanaStezhko/goit-react-hw-02-feedback.git/static/js/main.65ace79c.chunk.js.map",
+    "runtime-main.js": "/OksanaStezhko/goit-react-hw-02-feedback.git/static/js/runtime-main.345e4524.js",
+    "runtime-main.js.map": "/OksanaStezhko/goit-react-hw-02-feedback.git/static/js/runtime-main.345e4524.js.map",
+    "static/js/2.9d6b7894.chunk.js": "/OksanaStezhko/goit-react-hw-02-feedback.git/static/js/2.9d6b7894.chunk.js",
+    "static/js/2.9d6b7894.chunk.js.map": "/OksanaStezhko/goit-react-hw-02-feedback.git/static/js/2.9d6b7894.chunk.js.map",
+    "index.html": "/OksanaStezhko/goit-react-hw-02-feedback.git/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/OksanaStezhko/goit-react-hw-02-feedback.git/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.9d6b7894.chunk.js.LICENSE.txt": "/OksanaStezhko/goit-react-hw-02-feedback.git/static/js/2.9d6b7894.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.345e4524.js",
+    "static/js/2.9d6b7894.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.65ace79c.chunk.js"
+  ]
+}
