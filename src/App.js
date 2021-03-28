@@ -34,13 +34,13 @@ class App extends Component {
 
     return (
       <Container>
-        <Sections title="Please leave feedback">
+        <Sections title="Please leave feedback:">
           <FeedbackOptions
             options={buttonNames}
             onClickButton={this.handleButton}
           />
         </Sections>
-        <Sections title="Statistics">
+        <Sections title="Statistics:">
           {this.countTotalFeedback() ? (
             <Statistics itemList={statisticsList} />
           ) : (
