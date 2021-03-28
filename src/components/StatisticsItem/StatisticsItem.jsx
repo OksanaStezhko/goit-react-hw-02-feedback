@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 class StatisticsItem extends Component {
   render() {
@@ -11,5 +12,10 @@ class StatisticsItem extends Component {
     );
   }
 }
+
+StatisticsItem.propTypes = {
+  itemName: PropTypes.string.isRequired,
+  itemValue: PropTypes.number.isRequired,
+};
 
 export default StatisticsItem;

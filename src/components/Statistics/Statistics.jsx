@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import StatisticsItem from '../StatisticsItem';
 
 class Statistics extends Component {
@@ -13,5 +14,9 @@ class Statistics extends Component {
     );
   }
 }
+
+Statistics.propTypes = {
+  itemList: PropTypes.array.isRequired,
+};
 
 export default Statistics;
