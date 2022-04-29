@@ -1,8 +1,12 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import style from './StatisticsItem.module.css';
+import { TStatisticsItem } from '../Interfaces/statisic.interface';
 
-const StatisticsItem = ({ itemName, itemValue }) => (
+interface Props {
+  statisticsItem: TStatisticsItem;
+}
+
+const StatisticsItem = ({ statisticsItem: [itemName, itemValue] }: Props) => (
   <li className={style.item}>
     <span>{itemName}:</span>
     <span>
@@ -11,10 +15,5 @@ const StatisticsItem = ({ itemName, itemValue }) => (
     </span>
   </li>
 );
-
-StatisticsItem.propTypes = {
-  itemName: PropTypes.string.isRequired,
-  itemValue: PropTypes.number.isRequired,
-};
 
 export default StatisticsItem;

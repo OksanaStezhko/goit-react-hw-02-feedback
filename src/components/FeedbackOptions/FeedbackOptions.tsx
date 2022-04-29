@@ -1,8 +1,12 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import FeedbackOptionsItem from '../FeedbackOptionsItem';
 
-const FeedbackOptions = ({ options, onClickButton }) => (
+interface Props {
+  options: string[];
+  onClickButton: (option: string) => void;
+}
+
+const FeedbackOptions = ({ options, onClickButton }: Props) => (
   <ul>
     {options.map(option => (
       <FeedbackOptionsItem
@@ -15,12 +19,5 @@ const FeedbackOptions = ({ options, onClickButton }) => (
     ))}
   </ul>
 );
-
-FeedbackOptions.propTypes = {
-  option: PropTypes.arrayOf(
-    PropTypes.shape({ option: PropTypes.string.isRequired }),
-  ),
-  onClickButton: PropTypes.func.isRequired,
-};
 
 export default FeedbackOptions;
